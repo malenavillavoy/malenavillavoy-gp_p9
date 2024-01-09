@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+             --darkblue: #2854c5;
+             --softblue: #5884e1;
+             --white: #efefef;
+             --grey: #999999; 
+             --pink: #ea33f7;
+             --red: #ea3323;
+        }
+        body {
+            background-color: var(--softblue);
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(20, 1fr);
+            grid-template-rows: repeat(57, 1fr);
+        }
+        #botella_fondo{
+            background-color: var(--white);
+            grid-column: 5/10;
+            grid-row: 10/54;
+        }
+        #etiqueta_detras{
+            background-color: var(--darkblue);
+            grid-column: 5/10;
+            grid-row: 24/31;
+        }
+        #etiqueta_delante{
+            background-color: var(--softblue);
+            grid-column: 6/9;
+            grid-row: 25/30;
+        }
+        #tapon{
+            background-color: var(--darkblue);
+            grid-column: 7/8;
+            grid-row: 5/7;
+        }
+        #fondo_libreta{
+            background-color: var(--grey);
+            grid-column: 11/16;
+            grid-row: 12/48;
+        }
+        #corazon_1{
+            background-color: var(--red);
+            grid-column: 12/14;
+            grid-row: 13/14;
+        }
+        #mchina_1{
+            background-color: var(--pink);
+            grid-column: 14/15;
+            grid-row: 44/45;
+        }
+        #botella_f_1{
+            background-color: var(--white);
+            grid-column: 7/8;
+            grid-row: 7/9;
+        }
+        #botella_f_2{
+            background-color: var(--white);
+            grid-column: 6/9;
+            grid-row: 9/10;
+        }
+        #corazon_2{
+            background-color: var(--red);
+            grid-column: 12/13;
+            grid-row: 15/16;
+        }
+        #corazon_3{
+            background-color: var(--red);
+            grid-column: 14/15;
+            grid-row: 16/17;
+        }
+        #mchina_2{
+            background-color: var(--pink);
+            grid-column: 12/13;
+            grid-row: 45/46;}
+        
+        #insta{
+            background-color: var(--pink);
+            grid-column: 12/13;
+            grid-row: 45/46;}
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="botella_fondo"></div>
+        <div id="etiqueta_detras"></div>
+        <div id="etiqueta_delante"></div>
+        <div id="tapon"></div>
+        <div id="fondo_libreta"></div>
+        <div id="corazon_1"></div>
+        <div id="mchina_1"></div>
+        <div id="botella_f_1"></div>
+        <div id="botella_f_2"></div>
+        <div id="corazon_2"></div>
+        <div id="corazon_3"></div>
+        <div id="mchina_2"></div>
+        <div id="insta"><a href="https://www.instagram.com/malenapiquero/">@malenapiquero</a></div> 
+    </div>
+    
+</body>
+</html>
